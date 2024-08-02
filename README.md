@@ -50,7 +50,7 @@ SELECT pg_terminate_backend(procpid);
 ```sql
 VACUUM (VERBOSE, ANALYZE);
 VACUUM (FULL, VERBOSE, ANALYZE);
-VACUUM (FULL, VERBOSE, ANALYZE) TABLE tablename;
+VACUUM (FULL, VERBOSE, ANALYZE) tablename;
 ```
 
 ## Detailed info on running / idle queries
